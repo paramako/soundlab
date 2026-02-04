@@ -1,0 +1,15 @@
+[package]
+name = "soundlab"
+version = "0.1.0"
+edition = "2024"
+authors = ["paramako <paramako@gmail.com>"]
+description = "Synth building blocks: envelopes, voices, polyphony"
+license = "MIT"
+repository = "https://github.com/paramako/soundlab"
+keywords = ["audio", "synth", "dsp", "envelope", "vst"]
+categories = ["multimedia::audio"]
+
+[dependencies]
+oscy = "0.1.2"
+pitchy = "0.2.0"
+
